@@ -57,19 +57,19 @@ public class JavaCalculator extends JFrame {
                 p3.add(jbtDivide = new JButton("/"));
                 p3.add(jbtSolve = new JButton("="));
 
-        JPanel p = new JPanel();
-        p.setLayout(new GridLayout());
-        p.add(p2, BorderLayout.NORTH);
-        p.add(p1, BorderLayout.SOUTH);
-        p.add(p3, BorderLayout.EAST);
+        JPanel p4 = new JPanel();
+        p4.setLayout(new GridLayout());
+        p4.add(p2, BorderLayout.NORTH);
+        p4.add(p1, BorderLayout.SOUTH);
+        p4.add(p3, BorderLayout.EAST);
 
 
-        add(p);
+        add(p4);
 
         jbtNum1.addActionListener(new ListenToOne());
         jbtNum2.addActionListener(new ListenToTwo());
         jbtNum3.addActionListener(new ListenToThree());
-                jbtNum4.addActionListener(new ListenToFour());
+        jbtNum4.addActionListener(new ListenToFour());
         jbtNum5.addActionListener(new ListenToFive());
         jbtNum6.addActionListener(new ListenToSix());
         jbtNum7.addActionListener(new ListenToSeven());
